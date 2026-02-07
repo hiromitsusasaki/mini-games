@@ -1,0 +1,5 @@
+{
+  "name": "particle-pop",
+  "title": "Particle Pop",
+  "entry": "src/main.ts"
+}

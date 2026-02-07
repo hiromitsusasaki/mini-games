@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Particle Pop</title>
+  <style>
+    body { margin: 0; background: #0b0b10; color: #eaeaf2; font-family: system-ui, -apple-system, Segoe UI, sans-serif; }
+    header { padding: 12px 16px; border-bottom: 1px solid #26263a; display:flex; gap:12px; align-items:center;}
+    a { color: #9db7ff; }
+    canvas { display:block; margin: 16px auto; background: #111123; border: 1px solid #26263a; }
+    .hint { max-width: 900px; margin: 0 auto; padding: 0 16px 24px; opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../../index.html">← back</a>
+    <strong>Particle Pop</strong>
+  </header>
+  <canvas id="game" width="800" height="450"></canvas>
+  <div class="hint">
+    <p>Template game: click the canvas to spawn particles. Edit <code>src/main.ts</code>.</p>
+  </div>
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
